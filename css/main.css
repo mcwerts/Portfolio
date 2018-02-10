@@ -93,7 +93,7 @@ img, embed, object, video {
   font-size: 0.75em;
 }
 
-@media screen and (min-width: 295px) {
+@media screen and (min-width: 315px) {
   .header__title h1 {
     font-size: 2em;
   }
@@ -103,9 +103,9 @@ img, embed, object, video {
   }
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 415px) {
   .header__title h1 {
-    font-size: 3em;
+    font-size: 2.5em;
   }
 
   .header__title h2 {
