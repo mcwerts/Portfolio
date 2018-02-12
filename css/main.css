@@ -28,13 +28,6 @@ ul {
 img, embed, object, video {
   max-width: 100%
 }
-/*
- *
- * Common
- *
- */
-
-
 
 /*
  *
@@ -126,12 +119,6 @@ main {
   margin-right: auto;
 }
 
-
-/*
- *
- * Content
- *
- */
 @media screen and (min-width: 760px) {
   main {
     width: 760px;
