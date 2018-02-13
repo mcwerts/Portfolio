@@ -36,13 +36,10 @@ img, embed, object, video {
  */
 
 .header {
-  border-bottom-style: solid;
-  border-bottom-color: gray;
   min-height: 56px;
   transition: min-height 0.3s;
   margin-left: 10px;
   margin-right: 10px;
-  padding-bottom: 2em;
   margin-bottom: 2em;
 }
 
@@ -58,6 +55,10 @@ img, embed, object, video {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  border-bottom-style: solid;
+  border-bottom-color: gray;
+  padding-bottom: 2em;
+  margin-bottom: 2em;
 }
 
 .header__logo {
@@ -106,6 +107,14 @@ img, embed, object, video {
   }
 }
 
+.banner-image {
+  width: 100%;
+  position: relative;
+  background-image: url("../images/data-servers-lg.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
 /*
  *
  * Main
@@ -113,7 +122,6 @@ img, embed, object, video {
  */
 
 main {
-  /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);*/
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -132,14 +140,6 @@ main {
  * Featured work
  *
  */
-
-.featured-image {
-  width: 100%;
-  position: relative;
-  background-image: url("../images/data-servers-lg.jpg");
-  background-size: cover;
-  height: 300px;
-}
 
 /*
  *
