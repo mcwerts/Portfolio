@@ -123,8 +123,8 @@ img, embed, object, video {
 
 main {
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 @media screen and (min-width: 760px) {
@@ -177,7 +177,7 @@ main {
 }
 
 .featured__title {
-  font-size: 2em;
+  font-size: 1.8em;
   font-weight: 400;
   text-align: center;
   margin-top: .4em;
