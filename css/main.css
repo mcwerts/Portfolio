@@ -166,8 +166,11 @@ main {
   }
 
   .featured__heading {
-    font-size: 2em;
-    font-weight: 400;
+    font-size: 1.5em;
+  }
+
+  .header__banner {
+    height: 100px;
   }
 }
 
@@ -189,6 +192,10 @@ main {
   .header__banner {
     height: 150px;
   }
+
+  .featured__heading {
+    font-size: 2em;
+  }
 }
 
 @media screen and (min-width: 412px) {
@@ -198,6 +205,10 @@ main {
 
   .header__title__title {
     font-size: 1.3em;
+  }
+
+  .header__banner {
+    height: 200px;
   }
 }
 
