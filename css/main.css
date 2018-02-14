@@ -235,7 +235,14 @@ main {
     font-size: 1.3em;
   }
 
-  .header__banner {
+  .header__info__img {
+    height: 41px;
+    width: 41px;
+    margin-right: 0;
+    margin-top: 6px;
+  }
+
+    .header__banner {
     height: 200px;
   }
 
@@ -251,8 +258,8 @@ main {
   }
 
   .featured__img {
-    height: 60px;
-    width: 60px;
+    height: 72px;
+    width: 72px;
     margin-right: 6px;
     margin-top: 0;
   }
@@ -278,7 +285,7 @@ main {
   }
 
   .featured__link__icon {
-    height: 30px;
+    height: 40px;
   }
 }
 
