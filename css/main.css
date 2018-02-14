@@ -238,9 +238,7 @@ main {
   .header__banner {
     height: 200px;
   }
-}
 
-@media screen and (min-width: 485px) {
   .container {
     flex-direction: column;
     flex-wrap: nowrap;
