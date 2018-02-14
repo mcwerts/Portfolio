@@ -76,14 +76,18 @@ img, embed, object, video {
 
 .header__info__title {
   font-weight: 400;
-  font-size: 0.4em;
+  font-size: 0.6em;
+}
+
+.header__info__link {
+  text-decoration: none;
 }
 
 .header__info__img {
-  height: 24px;
-  width: 24px;
-  margin-right: 0px;
-  margin-top: 12px;
+  height: 14px;
+  width: 14px;
+  margin-right: 0;
+  margin-top: 6px;
 }
 
 .header__banner {
@@ -129,7 +133,7 @@ main {
 .featured {
   margin: 5px;
   min-width: 235px;
-  margin-top: 1em;/*2*/
+  margin-top: 1em;
 }
 
 .featured__img {
@@ -140,27 +144,26 @@ main {
 }
 
 .featured__info {
-  margin: 0px 0em;
+  margin: 0 0;
   display: inline-block;
-
   text-align: left;
 }
 
 .featured__title {
-  font-size: 1em; /*1.8em*/
+  font-size: 1em;
   font-weight: 400;
-  text-align: left; /*center*/
+  text-align: left;
   margin-top: .4em;
   color: black;
 }
 
 .featured__link {
   display: block;
-  text-align: left; /*center*/
+  text-align: left;
 }
 
 .featured__link__icon {
-  height: 24px; /*30px*/
+  height: 24px;
 }
 
 /*
@@ -205,6 +208,13 @@ main {
 
   .header__info__title {
     font-size: 1em;
+  }
+
+  .header__info__img {
+    height: 21px;
+    width: 21px;
+    margin-right: 0;
+    margin-top: 6px;
   }
 
   .header__banner {
@@ -294,7 +304,7 @@ main {
   }
 
   .featured__info {
-    margin: 0px 0em;
+    margin: 0 0;
     display: block;
     text-align: center;
   }
