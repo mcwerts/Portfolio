@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -11,21 +12,19 @@ body {
   color: #424242;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2 {
   margin: 0;
 }
 
-header, nav, footer, section, article, div {
+header,
+section,
+article,
+div {
   box-sizing: border-box;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-img, embed, object, video {
+img {
   max-width: 100%
 }
 
@@ -37,28 +36,26 @@ img, embed, object, video {
 
 .header {
   min-height: 56px;
-  transition: min-height 0.3s;
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 2em;
 }
 
 .header__inner {
-  width: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 2em;
   border-bottom-style: solid;
   border-bottom-color: gray;
   padding-bottom: 2em;
-  margin-bottom: 2em;
 }
 
 .header__logo {
   height: 24px;
   width: 24px;
+  margin-top: 12px;
   margin-right: 0.5em;
   vertical-align: top;
-  margin-top: 12px;
 }
 
 .header__info {
@@ -105,11 +102,7 @@ img, embed, object, video {
  */
 
 main {
-  width: 100%;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 2em;
-  margin-bottom: 1em;
+  margin: 2em 10px 1em 10px;
 }
 
 .featured__heading {
@@ -132,7 +125,7 @@ main {
 
 .featured {
   margin: 5px;
-  min-width: 235px;
+  min-width: 225px;
   margin-top: 1em;
 }
 
@@ -144,7 +137,7 @@ main {
 }
 
 .featured__info {
-  margin: 0 0;
+  margin: 0;
   display: inline-block;
   text-align: left;
 }
@@ -253,7 +246,6 @@ main {
 
   .featured {
     margin: 5px;
-    min-width: 235px;
     margin-top: 2em;
   }
 
@@ -265,7 +257,7 @@ main {
   }
 
   .featured__info {
-    margin: 0px 0em;
+    margin: 0 0;
     display: inline-block;
     text-align: left;
   }
@@ -274,7 +266,7 @@ main {
     font-size: 1.8em;
     font-weight: 400;
     text-align: left;
-    margin-top: 0em;
+    margin-top: 0;
     margin-bottom: 0.4em;
     color: black;
   }
@@ -296,9 +288,8 @@ main {
   }
 
   .featured {
-    margin: 5px;
+    margin: 2em 5px 5px;
     min-width: 235px;
-    margin-top: 2em;
   }
 
   .featured__img {
