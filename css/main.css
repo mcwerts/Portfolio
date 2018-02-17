@@ -104,7 +104,7 @@ header {
 
 /*
  *
- * Main -- Featured work
+ * Main -- project work
  *
  */
 
@@ -113,7 +113,7 @@ main {
   margin: 0 10px 1em;
 }
 
-.featured__heading {
+.project__heading {
   font-size: 1.25em;
   font-weight: 400;
   color: gray;
@@ -126,14 +126,14 @@ main {
  *
  */
 
-.container {
+.gallery {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   width: 100%;
 }
 
-.featured {
+.project {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -144,18 +144,20 @@ main {
   box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
 }
 
-.featured__img {
+.project__image {
   height: 204px;
   width: 204px;
   margin-right: 0;
-  padding-right: 0;  padding-right: 6px;
+  padding-right: 0;
+  /*padding-right: 6px;
+  padding-left: 15px;*/
   background-color: #7a90ff;
   /*background-color: #e3e9f7*/
   /*background-color: #c5cad6*/;
   /*border: 1px solid lightgray;*/
 }
 
-.featured__info {
+.project__infobox {
   display: flex;
   flex-direction: column;
   flex: 1 1 100px;
@@ -171,7 +173,7 @@ main {
   margin: 0 0; /*412*/
 }
 
-.featured__info__title {
+.project__title {
   font-size: 1.8em;
   font-weight: 400;
   text-align: center;
@@ -180,11 +182,11 @@ main {
   color: black;
 }
 
-.featured__link {
+.project__link {
   text-align: left; /* 555 center? */
 }
 
-.featured__link-icon {
+.project__link-icon {
   height: 40px;
 }
 
@@ -217,7 +219,7 @@ main {
     height: 100px;
   }
 
-  .featured__heading {
+  .project__heading {
     font-size: 1.5em;
   }
 }
@@ -251,7 +253,7 @@ main {
     height: 150px;
   }
 
-  .featured__heading {
+  .project__heading {
     font-size: 2em;
   }
 }
