@@ -99,6 +99,7 @@ header {
   background-size: cover;
   height: 75px;
   margin-bottom: 1em;
+  filter: grayscale(100%);
 }
 
 /*
@@ -135,22 +136,19 @@ main {
   display: flex;
   flex-flow: row nowrap;
   margin-bottom: 10px;
-  /*background-color: #e3e9f7*/ /*#c5cad6*/;
-  /*border: 1px solid lightgray;*/
-  /*border-radius: 10px 10px 10px 10px;*/
   max-width: 165px;
   padding: 0px;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
-  /*border: 1px solid lightgray;*/
 }
 
 .featured__img {
   height: 44px;
   width: 44px;
   padding-right: 6px;
-  /*border-radius: 10px 10px 0 0;*/
-  background-color: #e3e9f7 /*#c5cad6*/;
-  border: 1px solid lightgray;
+  background-color: #7a90ff;
+  /*background-color: #e3e9f7*/
+  /*background-color: #c5cad6*/;
+  /*border: 1px solid lightgray;*/
 }
 
 .featured__info {
@@ -159,8 +157,11 @@ main {
   flex: 1 1 100px;
   justify-content: space-between;
   /*border-radius: 0 0 10px 10px;*/
-  border: 2px solid #4a7ee8;
-  background-color: #4a7ee8
+  /*border: 2px solid #4a7ee8;*/
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  background-color: white /*#4a7ee8*/
 }
 
 .featured__info__title {
@@ -168,7 +169,7 @@ main {
   font-weight: 400;
   text-align: left;
   /*margin-top: .4em;*/
-  color: white;
+  color: black;
 }
 
 .featured__link {
@@ -184,6 +185,7 @@ main {
  * Responsive Properties
  *
  */
+
 @media screen and (min-width: 255px) {
   .header__inner {
     min-height: 65px;
@@ -311,7 +313,7 @@ main {
   }
 }
 
-@media screen and (min-width: 555px) {
+@media screen and (min-width: 250px) { /*555*/
   .container {
     flex-flow: row wrap;
     justify-content: space-around;
@@ -327,8 +329,8 @@ main {
   }
 
   .featured__img {
-    height: 202px;
-    width: 202px; /* Pre-allocating 2px for a 1px wide border*/
+    height: 204px;
+    width: 204px;
     margin-right: 0;
     padding-right: 0;
   }
