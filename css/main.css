@@ -52,8 +52,8 @@ header {
 }
 
 .header__logo {
-  height: 40px;
-  width: 40px;
+  height: 80px;
+  width: 80px;
 }
 
 .header__info {
@@ -95,8 +95,10 @@ header {
 .header__banner {
   width: 100%;
   position: relative;
-  background-image: url("../images/data-servers-lg.jpg");
+  background-image: url("../images/Wikimedia_Servers-0051_13.jpg");
+  /*background-image: url("../images/data-servers-lg.jpg");*/
   background-size: cover;
+  background-position: center;
   height: 75px;
   margin-bottom: 1em;
   filter: grayscale(100%);
@@ -144,17 +146,40 @@ main {
   box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
 }
 
-.project__image {
-  height: 204px;
+/*
+#364ab5
+#0b29c4 Cal blue
+#092096 Dark Cal Blue
+#7a90ff A medium blue
+#e3e9f7 Bluish white
+#c5cad6 A light gray
+*/
+.project__image-wrapper {
+  display: flex;
+  height: 204px; /*204*/
   width: 204px;
-  margin-right: 0;
-  padding-right: 0;
-  /*padding-right: 6px;
-  padding-left: 15px;*/
-  background-color: #7a90ff;
-  /*background-color: #e3e9f7*/
-  /*background-color: #c5cad6*/;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lightgray;
+}
+
+.project__image-wrapper--stretch {
+
+}
+
+.project__image {
+  height: 144px; /*204*/
+  width: 144px;
   /*border: 1px solid lightgray;*/
+}
+
+.project__image--invert {
+  filter: invert(100%);
+}
+
+.project__image204 {
+  height: 188px;
+  /*width: 204px;*/
 }
 
 .project__infobox {
@@ -188,6 +213,44 @@ main {
 
 .project__link-icon {
   height: 40px;
+}
+
+/*
+ *
+ * Credits
+ *
+ */
+
+footer {
+  margin-top: 3em;
+  margin-bottom: 1em;
+  border-top: medium solid gray;
+}
+
+.footer__inner {
+  margin: 4px;
+}
+
+.credits__header {
+  font-size: 12px;
+  font-weight: 400;
+  margin-below: 8px;
+}
+
+.credits {
+  display: flex;
+  flex-flow: row wrap;
+  justify-items: space-between;
+}
+
+.credit {
+  font-size: 10px;
+  color: gray;
+  width: 350px;
+}
+
+.footer__link {
+  color: gray;
 }
 
 /*
@@ -230,8 +293,8 @@ main {
   }
 
   .header__logo {
-    height: 72px;
-    width: 72px;
+    height: 80px;
+    width: 80px;
   }
 
   .header__name {
@@ -296,5 +359,11 @@ main {
     margin-left: auto;
     margin-right: auto;
   }
+
+  footer {
+    width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+   }
 }
 
