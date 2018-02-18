@@ -52,8 +52,8 @@ header {
 }
 
 .header__logo {
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
 }
 
 .header__info {
@@ -96,7 +96,6 @@ header {
   width: 100%;
   position: relative;
   background-image: url("../images/Wikimedia_Servers-0051_13.jpg");
-  /*background-image: url("../images/data-servers-lg.jpg");*/
   background-size: cover;
   background-position: center;
   height: 75px;
@@ -111,7 +110,6 @@ header {
  */
 
 main {
-  /*margin: 2em 10px 1em 10px;*/
   margin: 0 10px 1em;
 }
 
@@ -146,40 +144,18 @@ main {
   box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
 }
 
-/*
-#364ab5
-#0b29c4 Cal blue
-#092096 Dark Cal Blue
-#7a90ff A medium blue
-#e3e9f7 Bluish white
-#c5cad6 A light gray
-*/
 .project__image-wrapper {
   display: flex;
-  height: 204px; /*204*/
+  height: 204px;
   width: 204px;
   justify-content: space-around;
   align-items: center;
   background-color: lightgray;
 }
 
-.project__image-wrapper--stretch {
-
-}
-
 .project__image {
-  height: 144px; /*204*/
+  height: 144px;
   width: 144px;
-  /*border: 1px solid lightgray;*/
-}
-
-.project__image--invert {
-  filter: invert(100%);
-}
-
-.project__image204 {
-  height: 188px;
-  /*width: 204px;*/
 }
 
 .project__infobox {
@@ -189,13 +165,11 @@ main {
   justify-content: space-between;
   align-items: center;
   min-width: 204px;
-  /*border-radius: 0 0 10px 10px;*/
-  /*border: 2px solid #4a7ee8;*/
   border-left: 1px solid lightgray;
   border-right: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
-  background-color: white /*#4a7ee8*/
-  margin: 0 0; /*412*/
+  background-color: white;
+  margin: 0 0;
 }
 
 .project__title {
@@ -208,7 +182,7 @@ main {
 }
 
 .project__link {
-  text-align: left; /* 555 center? */
+  text-align: left;
 }
 
 .project__link-icon {
@@ -231,16 +205,16 @@ footer {
   margin: 4px;
 }
 
-.credits__header {
+.footer__header {
   font-size: 12px;
   font-weight: 400;
-  margin-below: 8px;
+  margin-bottom: 8px;
 }
 
 .credits {
   display: flex;
   flex-flow: row wrap;
-  justify-items: space-between;
+  justify-content: space-between;
 }
 
 .credit {
@@ -267,7 +241,6 @@ footer {
   .header__logo {
     height: 60px;
     width: 60px;
-    /*margin-right: 0.5em;*/
   }
 
   .header__name {
