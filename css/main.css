@@ -90,7 +90,7 @@ img {
 .header__banner {
   width: 100%;
   position: relative;
-  background-image: url("../images/Wikimedia_Servers-0051_13.jpg");
+  background-image: url(../images/Wikimedia_Servers-0051_13.jpg);
   background-size: cover;
   background-position: center;
   height: 75px;
