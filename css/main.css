@@ -37,11 +37,6 @@ img {
  *
  */
 
-header {
-  /*margin: 0 10px;*/
-  /*max-width: 750px;*/
-}
-
 .header__inner {
   display: flex;
   flex-flow: row nowrap;
