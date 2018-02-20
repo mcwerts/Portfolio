@@ -221,6 +221,8 @@ footer {
   font-size: 10px;
   color: gray;
   width: 350px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .footer__link {
