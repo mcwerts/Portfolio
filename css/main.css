@@ -55,8 +55,6 @@ img {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
-  /*margin: 12px 0.25em;*/ /*TODO*/
-  color: #212121;
   text-align: right;
 }
 
@@ -78,6 +76,8 @@ img {
 
 .header__link {
   text-decoration: none;
+  font-size: 18px;
+  color: gray;
 }
 
 .header__social-icon {
@@ -178,6 +178,8 @@ main {
 
 .project__link {
   text-align: left;
+  font-size: 40px;
+  color: gray;
 }
 
 .project__link-icon {
@@ -291,6 +293,7 @@ footer {
   }
 }
 
+/* Nexus 5X width 412x732 */
 @media screen and (min-width: 412px) {
   .header__inner {
     min-height: 120px;
@@ -304,11 +307,8 @@ footer {
     font-size: 1.3em;
   }
 
-  .header__social-icon {
-    height: 41px;
-    width: 41px;
-    margin-right: 0;
-    margin-top: 6px;
+  .header__link {
+    font-size: 48px;
   }
 
   .header__banner {
@@ -317,6 +317,7 @@ footer {
   }
 }
 
+/* iPad width 768x1024 */
 @media screen and (min-width: 760px) {
   header {
     width: 760px;
