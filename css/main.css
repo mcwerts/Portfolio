@@ -241,11 +241,11 @@ footer {
   }
 
   .header__name {
-    font: 2.5em Roboto, Arial, Helvetica, sans-serif;
+    font: 100 2.5em Roboto, Arial, Helvetica, sans-serif;
   }
 
   .header__title {
-    font: 1.3em  Roboto, Arial, Helvetica, sans-serif;
+    font: 400 1.3em  Roboto, Arial, Helvetica, sans-serif;
   }
 
   .header__banner {
