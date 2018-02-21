@@ -36,10 +36,11 @@ img {
 
 .header__inner {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
   justify-content: space-between;
-  min-height: 55px;
+  align-items: center;
   margin: 12px 0 1em;
+  min-height: 200px;
   border-bottom: medium solid gray;
 }
 
@@ -52,17 +53,19 @@ img {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
-  text-align: right;
+  align-items: center;
+  text-align: center;
+  min-height: 120px;
 }
 
 .header__name {
   font-weight: 100;
-  font-size: 0.9em;
+  font-size: 2.5em;
 }
 
 .header__title {
   font-weight: 400;
-  font-size: 0.6em;
+  font-size: 1.3em;
 }
 
 .header__social {
@@ -73,13 +76,11 @@ img {
 
 .header__link {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 48px;
   color: gray;
 }
 
 .header__social-icon {
-  height: 14px;
-  width: 14px;
   margin-right: 0;
   margin-top: 6px;
 }
@@ -106,7 +107,7 @@ main {
 }
 
 .project__heading {
-  font-size: 1.25em;
+  font-size: 1.5em;
   font-weight: 400;
   color: gray;
   margin-bottom: 10px;
@@ -202,7 +203,7 @@ footer {
 .footer__header {
   font-size: 12px;
   font-weight: 400;
-  margin-bottom: 8px;
+  margin: 24px 0 8px;
 }
 
 .credits {
@@ -219,6 +220,12 @@ footer {
   margin-bottom: 0;
 }
 
+.footer__social-link {
+  text-decoration: none;
+  color: gray;
+  font-size: 18px;
+}
+
 .footer__link {
   color: gray;
 }
@@ -229,71 +236,22 @@ footer {
  *
  */
 
-@media screen and (min-width: 255px) {
-  .header__inner {
-    min-height: 65px;
-  }
-
-  .header__logo {
-    height: 60px;
-    width: 60px;
-  }
-
-  .header__name {
-    font-size: 1.5em;
-  }
-
-  .header__title {
-    font-size: 0.75em;
-  }
-
-  .header__banner {
-    height: 100px;
-  }
-
-  .project__heading {
-    font-size: 1.5em;
-  }
-}
-
-@media screen and (min-width: 315px) {
-  .header__inner {
-    min-height: 85px;
-  }
-
-  .header__logo {
-    height: 80px;
-    width: 80px;
-  }
-
-  .header__name {
-    font-size: 2em;
-  }
-
-  .header__title {
-    font-size: 1em;
-  }
-
-  .header__social-icon {
-    height: 21px;
-    width: 21px;
-    margin-right: 0;
-    margin-top: 6px;
-  }
-
-  .header__banner {
-    height: 150px;
-  }
-
-  .project__heading {
-    font-size: 2em;
-  }
-}
-
-/* Nexus 5X width 412x732 */
+/* Nexus 5X viewport 412x732 */
 @media screen and (min-width: 412px) {
   .header__inner {
-    min-height: 120px;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-height: auto;
+  }
+
+  .header__info {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: right;
+    justify-content: space-between;
+    align-items: flex-end;
+    min-height: 140px;
   }
 
   .header__name {
@@ -302,10 +260,6 @@ footer {
 
   .header__title {
     font-size: 1.3em;
-  }
-
-  .header__link {
-    font-size: 48px;
   }
 
   .header__banner {
